@@ -1,5 +1,6 @@
 const express = require('express');
 const logger = require('./logger');
+const boardFile = require('./data/board.json');
 
 const app = express();
 
@@ -11,7 +12,7 @@ app.get('/', (req, res) => {
 });
 
 /* /api/board: Get the details of the board members from a .json file stored in data/ folder and send it as a response */
-
+console.log(boardFile);
 
 // Serve the app on a localhost port
 logger.info('Server started at port 5000');
