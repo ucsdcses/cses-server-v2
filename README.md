@@ -42,7 +42,7 @@ yarn start (or npm start)
 ## Contributors
 
 - Alexandra Michael 
-- Jining Song
+- Jining Song (jis269@ucsd.edu)
 - Lulu Zhu
 - Niyonika Sheth 
 - Saurabh Kanhegaonkar
